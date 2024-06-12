@@ -14,7 +14,7 @@ with col1:
     st.image("https://res.cloudinary.com/ddmifk9ub/image/upload/v1714666361/OFI/Logos/ofi-black.png")
 
 with col2:
-    st.title("Ofi Services Assistant")
+    st.title("Ofi Services MAZ Continuous Improvement Assistant")
 
 with col3:
     st.image("https://brandworld.ab-inbev.com/sites/g/files/wnfebl3996/files/Style%20Guide/MicrosoftTeams-image%20%282%29.png")
@@ -90,9 +90,7 @@ initial_prompt = (
 if not st.session_state.messages:
     st.session_state.messages.append({"role": "system", "content": initial_prompt})
     with st.chat_message("assistant"):
-        st.markdown("I am a virtual assistant specializing in project management. "
-                    "You can ask me questions about project management, "
-                    "important dates, team members, budget, and more.")
+        st.markdown("I am a virtual MAZ Continuous Improvement Assistant")
 
 # Display chat history
 st.header("Chat History")
